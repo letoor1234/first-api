@@ -1,6 +1,9 @@
 const express=require ('express');
 const morgan = require ('morgan'); // display requests in console
 const path = require('path');
+
+const {mongoose} = require ('./database');
+
 const app = express();
 
 //  <Setings
